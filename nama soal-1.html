@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .flex-container { 
+                display: grid;
+                grid-template-columns: 33% 33% 33%;
+                grid-template-rows: auto auto auto;
+                background-color: white;
+                padding: 20px;
+                column-gap: 0px;
+                row-gap: 10px;
+                
+            }
+            .flex-item {
+                background-color: #4a6689;
+                border: 3px solid #738d9e;
+                color: white;
+                border-radius: 20px;
+                padding: 20px;
+                font-size: 20px;
+                text-align: left;
+            }
+        </style>
+    </head>
+    <div class="flex-container">
+        <div class="flex-item">I am small</div>
+        <div class="flex-item">I have more content than the very small item.</div>
+        <div class="flex-item" >I have lots of content. So much content that I don't know where it is all going to go. I'm glad that CSS is pretty good at dealing with situations where we end up with more words than expected!</div>
+    </div>
+</html>
